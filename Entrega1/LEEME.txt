@@ -1,0 +1,29 @@
+"EJECUTAR"
+
+Una vez compilado el programa y lanzada su ejecución hay que seguir los pasos que indicará el mismo programa en el siguiente orden:
+	- "Introdueixi el nombre de centres dels que disposa per al rescat:"
+	- "Introdueixi el nombre d'helicópters que vol per a cada centre:"
+	- "Introdueixi el seed:", seed de centros
+	- "Introdueixi el nombre de grups que cal rescatar:"
+	- "Introdueixi el seed:", seed de grupos
+
+Una vez llegados aquí, ya se han generado los datos con los que nos tendremos que trabajar para resolver el problema del enunciado.
+Ahora nos falta decidir que algoritmo y cual de las 3 posibles generaciones del estado inicial queremos usar. Para ello también hay instrucciones en el propio programa:
+	- "Indiquins si vol trobar la solució amb el algorisme Hill Climbing escrivint H o amb el Simulated Aleaning escrivint S"
+	- "Introdueixi generacio estat inicial, 1 -> greedy, 2-> ordered, 3->random"
+
+En el remoto caso que no se haya introducido correctamente los valores del algoritmo "H" o "S" se mostrara el siguiente comentario y se abortara la ejecución
+	- "No has indicicat el algorisme amb el que vols treballar correctament."
+
+En el remoto caso que no se haya introducido correctamente los valores de la solución inicial "1", "2" o "3" se mostrara el siguiente comentario y se abortara la ejecución
+	- "Identificador d'estat inicial a generar mal introduït"
+
+Los operadores que hemos comparado estan en el código pero solo afectan al hill climbing, puesto que decidimos cuál era el mejor de todos usando el HC,
+existe un swich que te permite cambiar de operador. Al no ser una usabilidad del usuario, puesto que siempre se va a usar el mismo operador, si quieres escojer uno diferente
+se tiene que modificar des del código fuente, en el momento de crear el problema, de la siguiente forma:
+	- ProbRESCATSSuccesorFunction(1) para usar el operador "cambio de grupo"
+	- ProbRESCATSSuccesorFunction(2) para usar el operador "swap grupo"
+	- ProbRESCATSSuccesorFunction(3) para usar el operador "swap rescate"
+	- En caso que se introduzca un numero diferente, se ejecutara el default del swich que dice "Has introduit malament el operador." y se abortara la  ejecución.
+
+Si todo se ha introducido correctamente, se procederá a la ejecución con los parámetros fijados por el usuario.
