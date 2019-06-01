@@ -1,0 +1,24 @@
+; Wed May 09 11:44:42 CEST 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Prova_Class41] of  Viatge
+
+	(AssCiutat [Prova_Class43])
+	(AssTransport [Prova_Class42])
+	(Duraci%C3%B3 4)
+	(Preu 400.0)
+	(Tipus Festa))
+
+([Prova_Class42] of  Transport
+
+	(PreuTrans 40.0)
+	(TipusTrans Autobus))
+
+([Prova_Class43] of  Allotjament
+
+	(Nom_Allotjament "Camping")
+	(Nom_ciutat "Albacete")
+	(PreuNit 15.0)
+	(Qualitat Dolent))

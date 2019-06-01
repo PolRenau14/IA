@@ -1,0 +1,160 @@
+; Wed May 09 11:44:42 CEST 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Nom_allotjament
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot AssTransport
+		(type INSTANCE)
+;+		(allowed-classes Transport)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot TamanyGrup
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Nom
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Tipus
+		(type SYMBOL)
+		(allowed-values Negocis Romantic Festa Relax Cultural)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot KB_494231_Class12
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Preu_nit
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Nom_Allotjament
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PreuTrans
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot TransportPref
+		(type SYMBOL)
+		(allowed-values Avio Autobus Vaixell Cotxe)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Pressupost
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Qualitat
+		(type SYMBOL)
+		(allowed-values Dolent Estandard Bo)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot AssCiutat
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+		(cardinality 1 3)
+		(create-accessor read-write))
+	(single-slot Duraci%C3%B3
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot NomAllotjament
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot PreuNit
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot TipusTrans
+		(type SYMBOL)
+		(allowed-values Avio Autobus Vaixell Cotxe)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nom_ciutat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Preu
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot DuracioPref
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Viatge
+	(is-a USER)
+	(role concrete)
+	(single-slot Tipus
+		(type SYMBOL)
+		(allowed-values Negocis Romantic Festa Relax Cultural)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot AssCiutat
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+		(cardinality 1 3)
+		(create-accessor read-write))
+	(single-slot AssTransport
+		(type INSTANCE)
+;+		(allowed-classes Transport)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Duraci%C3%B3
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Preu
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Ciutat
+	(is-a USER)
+	(role concrete)
+	(single-slot Nom_ciutat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Allotjament
+	(is-a Ciutat)
+	(role concrete)
+	(single-slot Nom_Allotjament
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot PreuNit
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Qualitat
+		(type SYMBOL)
+		(allowed-values Dolent Estandard Bo)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Transport
+	(is-a USER)
+	(role concrete)
+	(single-slot TipusTrans
+		(type SYMBOL)
+		(allowed-values Avio Autobus Vaixell Cotxe)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot PreuTrans
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

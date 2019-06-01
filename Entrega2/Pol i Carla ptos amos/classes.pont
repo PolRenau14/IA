@@ -1,0 +1,76 @@
+; Sun May 13 20:21:59 CEST 2018
+; 
+;+ (version "3.3.1")
+;+ (build "Build 430")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot Preu
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Mitjans_de_transport
+		(type STRING)
+		(create-accessor read-write))
+	(single-slot Nom
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Transport
+		(type SYMBOL)
+		(allowed-values Avio Vaixell Tren Cotxe)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visitas
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Duracio
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Allotjament-qualitat
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tipus
+		(type SYMBOL)
+		(allowed-values Negocis Romantic Festa Cultural)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Viatge
+	(is-a USER)
+	(role concrete)
+	(single-slot Preu
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Duracio
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Allotjament-qualitat
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Nom
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Visitas
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Transport
+		(type SYMBOL)
+		(allowed-values Avio Vaixell Tren Cotxe)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot Tipus
+		(type SYMBOL)
+		(allowed-values Negocis Romantic Festa Cultural)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))

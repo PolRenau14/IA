@@ -1,0 +1,73 @@
+; Sun May 13 20:21:59 CEST 2018
+; 
+;+ (version "3.3.1")
+;+ (build "Build 430")
+
+([KB_598930_Instance_10] of  %3APAL-CONSTRAINT
+)
+
+([KB_598930_Instance_11] of  %3APAL-CONSTRAINT
+)
+
+([KB_598930_Instance_12] of  %3APAL-CONSTRAINT
+)
+
+([KB_598930_Instance_13] of  Viatge
+
+	(Allotjament-qualitat "Hotel1 4*")
+	(Duracio 2)
+	(Nom "Paris")
+	(Preu 400.0)
+	(Tipus Romantic)
+	(Transport Avio)
+	(Visitas "Torre Eiffel"))
+
+([KB_598930_Instance_14] of  Viatge
+
+	(Allotjament-qualitat "Camping 1*")
+	(Duracio 4)
+	(Nom "Paris")
+	(Preu 300.0)
+	(Tipus Romantic)
+	(Transport Tren)
+	(Visitas "Museo Lepend"))
+
+([KB_598930_Instance_15] of  Viatge
+
+	(Allotjament-qualitat "Hotel la canya 3*")
+	(Duracio 6)
+	(Nom "Paris")
+	(Preu 900.0)
+	(Tipus Romantic)
+	(Transport Cotxe)
+	(Visitas "Notre Dame"))
+
+([KB_598930_Instance_16] of  Viatge
+
+	(Allotjament-qualitat "Hotel1 4*")
+	(Duracio 5)
+	(Nom "Paris")
+	(Preu 650.0)
+	(Tipus Romantic)
+	(Transport Avio)
+	(Visitas "Pergamo"))
+
+([KB_598930_Instance_17] of  Viatge
+
+	(Allotjament-qualitat "Camping 1*")
+	(Duracio 3)
+	(Nom "Paris")
+	(Preu 260.0)
+	(Tipus Romantic)
+	(Transport Tren)
+	(Visitas "Charlie y la fabrica de chocolate"))
+
+([KB_598930_Instance_18] of  Viatge
+
+	(Allotjament-qualitat "Airbnb")
+	(Duracio 15)
+	(Nom "Paris")
+	(Preu 1600.0)
+	(Tipus Romantic)
+	(Transport Cotxe)
+	(Visitas "Orsay"))

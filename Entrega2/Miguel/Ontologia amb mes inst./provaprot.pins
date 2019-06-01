@@ -1,0 +1,2864 @@
+; Mon May 28 15:30:55 CEST 2018
+; 
+;+ (version "3.4.1")
+;+ (build "Build 537")
+
+([provaprot_Class0] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Red District")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class1] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Casa Anna Frank")
+	(preu_lloc_int 9.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax FALSE)
+	(clima oceanic)
+	(latitud 51.5072)
+	(longitud -0.1275)
+	(nom_ciutat "Londres")
+	(te_carretera FALSE)
+	(te_port FALSE))
+
+([provaprot_Class10000] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 0.4)
+	(nom_allotjament "Hotel Crowne")
+	(permet_animals TRUE)
+	(preu_allotjament 104.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class10001] of  Transport
+
+	(camarot FALSE)
+	(max_pers 15)
+	(nom_transport "Iberia Premium")
+	(peatge FALSE)
+	(preferent TRUE)
+	(preu_per_km 0.15)
+	(qualitat_transport bo)
+	(tipus_transport avio))
+
+([provaprot_Class10002] of  Transport
+
+	(max_pers 12)
+	(nom_transport "Vueling")
+	(preu_per_km 0.11)
+	(qualitat_transport mitja)
+	(tipus_transport avio))
+
+([provaprot_Class10003] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Voldenpaark")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int relax romantic activitat))
+
+([provaprot_Class10004] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Euro Business Center")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10005] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Heineken Experience")
+	(preu_lloc_int 18.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10006] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Van Gogh Museum")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10007] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Acropolis")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10009] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Plaka")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa romantic relax))
+
+([provaprot_Class10010] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Monastiraki")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class10011] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Turo de Licabeto")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int relax romantic))
+
+([provaprot_Class10013] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Museu Arqueologic")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10014] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Estadi Panatenaic")
+	(preu_lloc_int 7.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10015] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "European School of Management and Technology")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10016] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Mur de Berlin")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10017] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Edifici Reichstag")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural negoci))
+
+([provaprot_Class10018] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Monument als Jueus Assassinats")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10019] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Palau de Charlottenburg")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural relax))
+
+([provaprot_Class10020] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Friedrichschain district")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10021] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Potsdamer Platz")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural negoci romantic activitat))
+
+([provaprot_Class10022] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Castell de Buda")
+	(preu_lloc_int 16.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10023] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Banys Szecheny")
+	(preu_lloc_int 35.0)
+	(tipus_lloc_int romantic relax activitat))
+
+([provaprot_Class10024] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Parlament de Budapest")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10025] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Turo de Gellert")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax))
+
+([provaprot_Class10026] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Castell de Vajdahunyad")
+	(preu_lloc_int 13.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10027] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Bastio dels Pescadors")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10028] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Santa Sofia")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10029] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Bosforo")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class10030] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Palau de Topkapi")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10031] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Bar de Especies")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat relax))
+
+([provaprot_Class10032] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Plaça Taksim")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural cultural))
+
+([provaprot_Class10033] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Cisterna basilica")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10034] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Torre de Belem")
+	(preu_lloc_int 9.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10035] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Castell de San Jorge")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10036] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Rossio")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10037] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Elevador de Santa Justa")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int cultural cultural))
+
+([provaprot_Class10038] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Parc Eduardo VII")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10039] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Barri Alt")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa romantic activitat))
+
+([provaprot_Class10040] of  Llocs_interes
+
+	(ciutat "Lisboa")
+	(nom_lloc "Ideia Atlantico Centre de Negocis")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10041] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Big Ben")
+	(preu_lloc_int 25.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10042] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "London Eye")
+	(preu_lloc_int 27.0)
+	(tipus_lloc_int cultural romantic activitat))
+
+([provaprot_Class10043] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Riu Tamesis")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class10044] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Buckingham Palace")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10045] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Hyde Park")
+	(preu_lloc_int 5.0)
+	(tipus_lloc_int relax cultural romantic))
+
+([provaprot_Class10046] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Mayfair")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat festa))
+
+([provaprot_Class10048] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Hilton London Tower Bridge")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10049] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Museo del Prado")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10050] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Parque del Retiro")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class10051] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Puerta del Sol")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10052] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Plaza Mayor")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax))
+
+([provaprot_Class10053] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Parque Warner")
+	(preu_lloc_int 40.0)
+	(tipus_lloc_int activitat))
+
+([provaprot_Class10054] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Huertas")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10055] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "GSG Business Hub")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10056] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Catedral de Milan")
+	(preu_lloc_int 16.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10057] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Castell Sforzesco")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10058] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Teatre de La Scala")
+	(preu_lloc_int 35.0)
+	(tipus_lloc_int cultural activitat))
+
+([provaprot_Class10059] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Pinacoteca de Brea")
+	(preu_lloc_int 11.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10060] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Barri de Navigili")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10061] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "Parc de Sempione")
+	(preu_lloc_int 5.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10062] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Catedral de Santa Maria")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10063] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Coves del Drach")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int activitat cultural))
+
+([provaprot_Class10064] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Cala Major")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int relax romantic activitat))
+
+([provaprot_Class10065] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "La Lonja")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int festa relax activitat))
+
+([provaprot_Class10066] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Passeig Maritim")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int romantic relax festa))
+
+([provaprot_Class10067] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Cala d'Or")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10068] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Torre Eiffel")
+	(preu_lloc_int 11.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10069] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Musu del Louvre")
+	(preu_lloc_int 17.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10070] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Catedral de Notre Dame")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10071] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Dysneiland Paris")
+	(preu_lloc_int 60.0)
+	(tipus_lloc_int relax activitat))
+
+([provaprot_Class10072] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Arc del Trionf de Paris")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10073] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Avinguda Caps Elisis")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10074] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Mini Palais")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class10075] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Pont Carlos")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10076] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Castell de Praga")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10077] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Catedral de san Vito")
+	(preu_lloc_int 11.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10078] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Zoo Praga")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int relax activitat))
+
+([provaprot_Class10079] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Letna Park")
+	(preu_lloc_int 5.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10080] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Plaça Wenceslao")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10081] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Coliseu")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10082] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Fontana di Trevi")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10083] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Plaça Navona")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10084] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Barri del Trastevere")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic festa))
+
+([provaprot_Class10085] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Basilica de San Pedro")
+	(preu_lloc_int 13.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10086] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Testaccio")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa))
+
+([provaprot_Class10087] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Plaça de San Marcos")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class10088] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Gran Canal")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class10089] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Pont de Rialto")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat))
+
+([provaprot_Class10090] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Palau Ducal")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10091] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Pont dels Sospirs")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class10093] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Scuola Grande di San Rocco")
+	(preu_lloc_int 13.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10094] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Palau Schonbrunn")
+	(preu_lloc_int 18.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10095] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Prater")
+	(preu_lloc_int 35.0)
+	(tipus_lloc_int relax activitat))
+
+([provaprot_Class10096] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Opera Estatal de Viena")
+	(preu_lloc_int 40.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10097] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Palau Imperial Hofburg")
+	(preu_lloc_int 14.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class10098] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Volksgarten de Viena")
+	(preu_lloc_int 5.0)
+	(tipus_lloc_int cultural romantic relax))
+
+([provaprot_Class10099] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Triangle de les Bermudes district")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat festa))
+
+([provaprot_Class11] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa TRUE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 52.5186)
+	(longitud 13.4018)
+	(nom_ciutat "Berlin")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Class12] of  Ciutat
+
+	(bona_per_familia FALSE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 50.088)
+	(longitud 14.4207)
+	(nom_ciutat "Praga")
+	(te_carretera FALSE)
+	(te_port FALSE))
+
+([provaprot_Class13] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 45.4542)
+	(longitud 9.1895)
+	(nom_ciutat "Milan")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Class14] of  Ciutat
+
+	(bona_per_familia FALSE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 38.7071)
+	(longitud -9.1354)
+	(nom_ciutat "Lisboa")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Class15] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa TRUE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 39.5693)
+	(longitud 2.6502)
+	(nom_ciutat "Palma de Mallorca")
+	(te_carretera FALSE)
+	(te_port TRUE))
+
+([provaprot_Class16] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 45.4343)
+	(longitud 12.3388)
+	(nom_ciutat "Venecia")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Class17] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 37.9816)
+	(longitud 23.7308)
+	(nom_ciutat "Atenas")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Class19] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 0.45)
+	(nom_allotjament "Hotel Hestherea")
+	(permet_animals FALSE)
+	(preu_allotjament 205.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class2] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Rijkmuseum")
+	(preu_lloc_int 17.5)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class20] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 5.0)
+	(nom_allotjament "Camping Zeeburg")
+	(permet_animals TRUE)
+	(preu_allotjament 15.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class20001] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 2.1)
+	(nom_allotjament "Apartament Hein")
+	(permet_animals TRUE)
+	(preu_allotjament 59.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class20002] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 4.8)
+	(nom_allotjament "Camping Chasse")
+	(permet_animals FALSE)
+	(preu_allotjament 19.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class20003] of  Transport
+
+	(camarot TRUE)
+	(max_pers 15)
+	(nom_transport "Royal Caribbean")
+	(peatge FALSE)
+	(preferent FALSE)
+	(preu_per_km 0.11)
+	(qualitat_transport bo)
+	(tipus_transport vaixell))
+
+([provaprot_Class20004] of  Transport
+
+	(camarot TRUE)
+	(max_pers 12)
+	(nom_transport "Grimaldi Lines")
+	(peatge FALSE)
+	(preu_per_km 0.065)
+	(qualitat_transport mitja)
+	(tipus_transport vaixell))
+
+([provaprot_Class20005] of  Transport
+
+	(max_pers 10)
+	(nom_transport "Fred. Olsen Express")
+	(preu_per_km 0.052)
+	(qualitat_transport dolent)
+	(tipus_transport vaixell))
+
+([provaprot_Class20006] of  Transport
+
+	(camarot FALSE)
+	(max_pers 5)
+	(nom_transport "Particular")
+	(preu_per_km 0.05)
+	(qualitat_transport mitja)
+	(tipus_transport cotxe))
+
+([provaprot_Class20007] of  Transport
+
+	(max_pers 7)
+	(nom_transport "Lloguer")
+	(preu_per_km 0.07)
+	(qualitat_transport bo)
+	(tipus_transport cotxe))
+
+([provaprot_Class20008] of  Transport
+
+	(max_pers 30)
+	(nom_transport "Nizatour")
+	(preu_per_km 0.065)
+	(qualitat_transport dolent)
+	(tipus_transport autocar))
+
+([provaprot_Class20009] of  Transport
+
+	(max_pers 15)
+	(nom_transport "Renfe Preferent")
+	(preferent TRUE)
+	(preu_per_km 0.049)
+	(qualitat_transport bo)
+	(tipus_transport tren))
+
+([provaprot_Class20010] of  Transport
+
+	(max_pers 18)
+	(nom_transport "Renfe Standard")
+	(preu_per_km 0.038)
+	(qualitat_transport mitja)
+	(tipus_transport tren))
+
+([provaprot_Class22] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 2.0)
+	(nom_allotjament "Apartament Slotervaart")
+	(permet_animals TRUE)
+	(preu_allotjament 60.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class23] of  Allotjament
+
+	(ciutat_allotjament "Amsterdam")
+	(dist_centre 1.45)
+	(nom_allotjament "Hotel Ibis City West")
+	(permet_animals TRUE)
+	(preu_allotjament 94.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class25] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 0.3)
+	(nom_allotjament "Hotel Electra Metropolis")
+	(permet_animals TRUE)
+	(preu_allotjament 252.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class26] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 0.8)
+	(nom_allotjament "Hotel Stantley")
+	(permet_animals FALSE)
+	(preu_allotjament 129.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class27] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 1.6)
+	(nom_allotjament "Apartament Achilleos")
+	(permet_animals TRUE)
+	(preu_allotjament 56.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class28] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 0.7)
+	(nom_allotjament "Hotel Sofitel Kurfuerstendamm")
+	(permet_animals TRUE)
+	(preu_allotjament 115.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class29] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 0.25)
+	(nom_allotjament "Hotel Adlon Kempinski")
+	(permet_animals TRUE)
+	(preu_allotjament 239.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class3] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa TRUE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 40.4167)
+	(longitud -3.70325)
+	(nom_ciutat "Madrid")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Class30] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 3.0)
+	(nom_allotjament "Apartament Neukolln")
+	(permet_animals TRUE)
+	(preu_allotjament 65.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30003] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 4.2)
+	(nom_allotjament "Camping Athenaeum")
+	(permet_animals TRUE)
+	(preu_allotjament 16.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30004] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 0.4)
+	(nom_allotjament "Hotel Hellinis")
+	(permet_animals TRUE)
+	(preu_allotjament 213.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30005] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel Phidias")
+	(permet_animals FALSE)
+	(preu_allotjament 99.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30006] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 0.9)
+	(nom_allotjament "Hotel Ilissos")
+	(permet_animals TRUE)
+	(preu_allotjament 130.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30007] of  Allotjament
+
+	(ciutat_allotjament "Atenas")
+	(dist_centre 2.3)
+	(nom_allotjament "Apartament AthensWass")
+	(permet_animals TRUE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30008] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 1.4)
+	(nom_allotjament "Hotel Allegra")
+	(permet_animals FALSE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30009] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 0.9)
+	(nom_allotjament "Apartament Center")
+	(permet_animals TRUE)
+	(preu_allotjament 110.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30010] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 2.0)
+	(nom_allotjament "Hotel Western")
+	(permet_animals FALSE)
+	(preu_allotjament 103.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30011] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel Allegra")
+	(permet_animals TRUE)
+	(preu_allotjament 95.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30012] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 7.1)
+	(nom_allotjament "Camping Outsides")
+	(permet_animals TRUE)
+	(preu_allotjament 15.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30013] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel Three Corners")
+	(permet_animals FALSE)
+	(preu_allotjament 105.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30014] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 3.0)
+	(nom_allotjament "Apartament Carat")
+	(permet_animals TRUE)
+	(preu_allotjament 69.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30015] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 1.3)
+	(nom_allotjament "Hotel Maywood")
+	(permet_animals TRUE)
+	(preu_allotjament 110.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30016] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 3.2)
+	(nom_allotjament "Apartament Taksim")
+	(permet_animals TRUE)
+	(preu_allotjament 75.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30017] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 6.5)
+	(nom_allotjament "Camping Sultanahmet")
+	(permet_animals TRUE)
+	(preu_allotjament 18.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30018] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 1.5)
+	(nom_allotjament "Apartament Kartal")
+	(permet_animals TRUE)
+	(preu_allotjament 99.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30019] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 2.0)
+	(nom_allotjament "Hotel Casa do Barrio")
+	(permet_animals FALSE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30020] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 1.3)
+	(nom_allotjament "Hotel Pousada do Lisboa")
+	(permet_animals TRUE)
+	(preu_allotjament 130.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30021] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 1.4)
+	(nom_allotjament "Apartament Alif Campo")
+	(permet_animals TRUE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30022] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 0.4)
+	(nom_allotjament "Hotel Açores")
+	(permet_animals TRUE)
+	(preu_allotjament 230.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30023] of  Allotjament
+
+	(ciutat_allotjament "Londres")
+	(dist_centre 2.3)
+	(nom_allotjament "Hotel Victoria")
+	(permet_animals TRUE)
+	(preu_allotjament 99.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30024] of  Allotjament
+
+	(ciutat_allotjament "Londres")
+	(dist_centre 7.3)
+	(nom_allotjament "Camping Kensington")
+	(permet_animals TRUE)
+	(preu_allotjament 19.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30025] of  Allotjament
+
+	(ciutat_allotjament "Londres Shepherds")
+	(dist_centre 1.8)
+	(nom_allotjament "Apartament")
+	(permet_animals TRUE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30026] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 2.6)
+	(nom_allotjament "Apartament Badia")
+	(permet_animals FALSE)
+	(preu_allotjament 109.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30027] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 3.6)
+	(nom_allotjament "Hotel Colon")
+	(permet_animals FALSE)
+	(preu_allotjament 69.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30028] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 1.3)
+	(nom_allotjament "Hotel Palazzo Delle Stelline")
+	(permet_animals FALSE)
+	(preu_allotjament 799.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30029] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 1.2)
+	(nom_allotjament "Hotel Suite")
+	(permet_animals TRUE)
+	(preu_allotjament 219.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30030] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 3.2)
+	(nom_allotjament "Camping Agappe")
+	(permet_animals TRUE)
+	(preu_allotjament 74.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30031] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 1.6)
+	(nom_allotjament "Apartament Brera")
+	(permet_animals TRUE)
+	(preu_allotjament 97.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30032] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 4.1)
+	(nom_allotjament "Apartament Convertini")
+	(permet_animals FALSE)
+	(preu_allotjament 65.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30033] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 1.2)
+	(nom_allotjament "Hotel Melia")
+	(permet_animals FALSE)
+	(preu_allotjament 129.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30034] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 2.3)
+	(nom_allotjament "Apartament Marina")
+	(permet_animals TRUE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30035] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 2.1)
+	(nom_allotjament "Apartament Marivent")
+	(permet_animals FALSE)
+	(preu_allotjament 85.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30036] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 3.0)
+	(nom_allotjament "Apartament Majorica")
+	(permet_animals TRUE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30037] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 5.9)
+	(nom_allotjament "Camping Pigalle")
+	(permet_animals TRUE)
+	(preu_allotjament 21.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30038] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 3.4)
+	(nom_allotjament "Apartament Vaugirard")
+	(permet_animals TRUE)
+	(preu_allotjament 76.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30039] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 2.8)
+	(nom_allotjament "Apartament Gare du Sacre")
+	(permet_animals FALSE)
+	(preu_allotjament 99.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30040] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 1.1)
+	(nom_allotjament "Hotel Grand Luxe")
+	(permet_animals TRUE)
+	(preu_allotjament 239.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30041] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 1.3)
+	(nom_allotjament "Hotel Thalia")
+	(permet_animals TRUE)
+	(preu_allotjament 189.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30042] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 1.2)
+	(nom_allotjament "Hotel Grand Prague")
+	(permet_animals TRUE)
+	(preu_allotjament 210.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30043] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 3.1)
+	(nom_allotjament "Apartament Kinsky")
+	(permet_animals TRUE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30044] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 1.6)
+	(nom_allotjament "Apartament Corinthia")
+	(permet_animals FALSE)
+	(preu_allotjament 95.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30045] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 6.1)
+	(nom_allotjament "Camping Waldstein")
+	(permet_animals TRUE)
+	(preu_allotjament 15.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30046] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 3.5)
+	(nom_allotjament "Apartament Solis")
+	(permet_animals FALSE)
+	(preu_allotjament 76.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30047] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 2.5)
+	(nom_allotjament "Apartament Dimora")
+	(permet_animals TRUE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class30048] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 2.7)
+	(nom_allotjament "Hotel Quirinale")
+	(permet_animals TRUE)
+	(preu_allotjament 96.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30049] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel Opera Dreams")
+	(permet_animals FALSE)
+	(preu_allotjament 175.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30050] of  Allotjament
+
+	(ciutat_allotjament "Venecia")
+	(dist_centre 3.0)
+	(nom_allotjament "Hotel Guesthouse")
+	(permet_animals FALSE)
+	(preu_allotjament 94.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30051] of  Allotjament
+
+	(ciutat_allotjament "Venecia")
+	(dist_centre 7.8)
+	(nom_allotjament "Camping Ritz")
+	(permet_animals TRUE)
+	(preu_allotjament 16.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30052] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 1.4)
+	(nom_allotjament "Hotel Embassy")
+	(permet_animals TRUE)
+	(preu_allotjament 159.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30053] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 2.1)
+	(nom_allotjament "Hotel Johann Strauss")
+	(permet_animals TRUE)
+	(preu_allotjament 136.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class30054] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 6.3)
+	(nom_allotjament "Camping Trenn")
+	(permet_animals TRUE)
+	(preu_allotjament 21.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class30055] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Rembrandtlein")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class30056] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "In De Wildeman")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int romantic festa cultural activitat))
+
+([provaprot_Class30057] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Plaza Sintagma")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class30058] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Hefestion")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural activitat))
+
+([provaprot_Class30059] of  Llocs_interes
+
+	(ciutat "Atenas")
+	(nom_lloc "Puerto del Piero")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class30061] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Watergate Bar")
+	(preu_lloc_int 11.0)
+	(tipus_lloc_int cultural activitat festa romantic))
+
+([provaprot_Class30062] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Berghain Panorama Bar")
+	(preu_lloc_int 8.0)
+	(tipus_lloc_int festa romantic activitat))
+
+([provaprot_Class30063] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Baños Szecheny")
+	(preu_lloc_int 22.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class30064] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Puente de las Cadenas")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural romantic))
+
+([provaprot_Class30065] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Isla margarita")
+	(preu_lloc_int 30.0)
+	(tipus_lloc_int cultural relax romantic activitat))
+
+([provaprot_Class30066] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Pont Galata")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class30067] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Buyukada")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class30068] of  Llocs_interes
+
+	(ciutat "Estambul")
+	(nom_lloc "Palau Beylerbeyi")
+	(preu_lloc_int 11.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class30069] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Barrio de las Letras")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class30070] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Malasaña-Triball")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class30071] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Barrio Salamanca")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa romantic activitat))
+
+([provaprot_Class30072] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Castellana")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class30073] of  Llocs_interes
+
+	(ciutat "Palma de Mallorca")
+	(nom_lloc "Illetas")
+	(preu_lloc_int 30.0)
+	(tipus_lloc_int cultural festa activitat))
+
+([provaprot_Class30074] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Caveau de la Huchette")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int festa activitat))
+
+([provaprot_Class30075] of  Llocs_interes
+
+	(ciutat "Paris")
+	(nom_lloc "Le Regine")
+	(preu_lloc_int 12.0)
+	(tipus_lloc_int festa activitat romantic))
+
+([provaprot_Class30076] of  Llocs_interes
+
+	(ciutat "Prias")
+	(nom_lloc "Noveau Casino")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int festa cultural activitat))
+
+([provaprot_Class30078] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Panteon Agripa")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Class30079] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Monte Palatino")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class30080] of  Llocs_interes
+
+	(ciutat "Roma")
+	(nom_lloc "Villa Borghese")
+	(preu_lloc_int 5.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Class30082] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Lloyd Meeting Room")
+	(preu_lloc_int 30.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30083] of  Llocs_interes
+
+	(ciutat "Amsterdam")
+	(nom_lloc "Podium Mozaiek")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30084] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "Pauly Saal Meeting")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30085] of  Llocs_interes
+
+	(ciutat "Berlin")
+	(nom_lloc "SOY Conference")
+	(preu_lloc_int 40.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30086] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Etterem Conference")
+	(preu_lloc_int 36.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30087] of  Llocs_interes
+
+	(ciutat "Budapest")
+	(nom_lloc "Kollazs")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30088] of  Llocs_interes
+
+	(ciutat "Londres")
+	(nom_lloc "Groucho Club")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30089] of  Llocs_interes
+
+	(ciutat "Madrid")
+	(nom_lloc "Club Allard")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30090] of  Llocs_interes
+
+	(ciutat "Milan")
+	(nom_lloc "The Stage Conference")
+	(preu_lloc_int 35.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30091] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "FIELD conference")
+	(preu_lloc_int 40.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30092] of  Llocs_interes
+
+	(ciutat "Praga")
+	(nom_lloc "Nejen Bistro")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30093] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Shima Conference")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30095] of  Llocs_interes
+
+	(ciutat "Venecia")
+	(nom_lloc "Zinque Club")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class30096] of  Llocs_interes
+
+	(ciutat "Viena")
+	(nom_lloc "Marriot Conference Room")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int negoci))
+
+([provaprot_Class31] of  Allotjament
+
+	(ciutat_allotjament "Berlin")
+	(dist_centre 6.0)
+	(nom_allotjament "Camping Britz")
+	(permet_animals TRUE)
+	(preu_allotjament 29.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class32] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 1.2)
+	(nom_allotjament "Hotel Margistsziget")
+	(permet_animals FALSE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class33] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 0.1)
+	(nom_allotjament "Hotel Papillon")
+	(permet_animals FALSE)
+	(preu_allotjament 259.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class34] of  Allotjament
+
+	(ciutat_allotjament "Budapest")
+	(dist_centre 4.0)
+	(nom_allotjament "Apartament Derkovits")
+	(permet_animals TRUE)
+	(preu_allotjament 69.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class35] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 3.0)
+	(nom_allotjament "Hotel Divan City")
+	(permet_animals FALSE)
+	(preu_allotjament 54.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class36] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 0.3)
+	(nom_allotjament "Hotel Shangri-La Bosphorus")
+	(permet_animals TRUE)
+	(preu_allotjament 199.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class37] of  Allotjament
+
+	(ciutat_allotjament "Estambul")
+	(dist_centre 2.6)
+	(nom_allotjament "Apartament Bagdat")
+	(permet_animals TRUE)
+	(preu_allotjament 55.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class38] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 1.4)
+	(nom_allotjament "Hotel Inn Express Oeiras")
+	(permet_animals FALSE)
+	(preu_allotjament 52.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class39] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 0.7)
+	(nom_allotjament "Hotel Dom Carlos Liberty")
+	(permet_animals TRUE)
+	(preu_allotjament 166.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class4] of  Ciutat
+
+	(bona_per_familia FALSE)
+	(bona_per_festa TRUE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima oceanic)
+	(latitud 52.374)
+	(longitud 4.8896)
+	(nom_ciutat "Amsterdam")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Class40] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 2.3)
+	(nom_allotjament "Apartament Soeiros")
+	(permet_animals TRUE)
+	(preu_allotjament 49.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class41] of  Allotjament
+
+	(ciutat_allotjament "Lisboa")
+	(dist_centre 5.4)
+	(nom_allotjament "Camping Conde Almoster")
+	(permet_animals TRUE)
+	(preu_allotjament 26.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class42] of  Allotjament
+
+	(ciutat_allotjament "Londres")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel London Bankside")
+	(permet_animals TRUE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class43] of  Allotjament
+
+	(ciutat_allotjament "Londres")
+	(dist_centre 0.2)
+	(nom_allotjament "Hotel Tower Knightsbridge")
+	(permet_animals FALSE)
+	(preu_allotjament 199.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class44] of  Allotjament
+
+	(ciutat_allotjament "Londres")
+	(dist_centre 3.0)
+	(nom_allotjament "Apartament Peckham")
+	(permet_animals TRUE)
+	(preu_allotjament 65.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class45] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 7.0)
+	(nom_allotjament "Camping El Picachuelo")
+	(permet_animals TRUE)
+	(preu_allotjament 28.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class46] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 1.6)
+	(nom_allotjament "Hotel Castilla")
+	(permet_animals FALSE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class47] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 0.8)
+	(nom_allotjament "Hotel Only You Atocha")
+	(permet_animals TRUE)
+	(preu_allotjament 159.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class48] of  Allotjament
+
+	(ciutat_allotjament "Madrid")
+	(dist_centre 2.4)
+	(nom_allotjament "Apartament Coslada")
+	(permet_animals TRUE)
+	(preu_allotjament 64.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class49] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 1.3)
+	(nom_allotjament "Hotel Michelangelo")
+	(permet_animals TRUE)
+	(preu_allotjament 139.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class5] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 48.2092)
+	(longitud 16.3728)
+	(nom_ciutat "Viena")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Class50] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 2.5)
+	(nom_allotjament "Hotel Milano Ambasciatori")
+	(permet_animals FALSE)
+	(preu_allotjament 75.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class51] of  Allotjament
+
+	(ciutat_allotjament "Milan")
+	(dist_centre 1.7)
+	(nom_allotjament "Apartament Barona")
+	(permet_animals TRUE)
+	(preu_allotjament 63.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class52] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 0.2)
+	(nom_allotjament "Hotel Melmia Victoria")
+	(permet_animals TRUE)
+	(preu_allotjament 189.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class53] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 1.4)
+	(nom_allotjament "Hotel Balanguera")
+	(permet_animals FALSE)
+	(preu_allotjament 94.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class54] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 2.1)
+	(nom_allotjament "Apartament Bellpuig")
+	(permet_animals FALSE)
+	(preu_allotjament 68.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class55] of  Allotjament
+
+	(ciutat_allotjament "Palma de Mallorca")
+	(dist_centre 4.5)
+	(nom_allotjament "Camping Mediterrani")
+	(permet_animals TRUE)
+	(preu_allotjament 24.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class56] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 0.7)
+	(nom_allotjament "Hotel du Mont Blanc")
+	(permet_animals FALSE)
+	(preu_allotjament 209.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class57] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 2.3)
+	(nom_allotjament "Hotel Ariane Montparnasse")
+	(permet_animals TRUE)
+	(preu_allotjament 106.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class58] of  Allotjament
+
+	(ciutat_allotjament "Paris")
+	(dist_centre 3.0)
+	(nom_allotjament "Apartament Bouchut")
+	(permet_animals FALSE)
+	(preu_allotjament 70.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class59] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 2.7)
+	(nom_allotjament "Apartament Vinohradska")
+	(permet_animals TRUE)
+	(preu_allotjament 71.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class6] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 47.498)
+	(longitud 19.0399)
+	(nom_ciutat "Budapest")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Class60] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 2.8)
+	(nom_allotjament "Hotel Carlton")
+	(permet_animals FALSE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class61] of  Allotjament
+
+	(ciutat_allotjament "Praga")
+	(dist_centre 0.5)
+	(nom_allotjament "Hotel Smetana")
+	(permet_animals FALSE)
+	(preu_allotjament 169.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class62] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 0.6)
+	(nom_allotjament "Hotel Grand Via Veneto")
+	(permet_animals TRUE)
+	(preu_allotjament 189.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class63] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 1.5)
+	(nom_allotjament "Hotel Dei Borgognoni")
+	(permet_animals FALSE)
+	(preu_allotjament 79.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class64] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 4.0)
+	(nom_allotjament "Apartament Cairoli")
+	(permet_animals TRUE)
+	(preu_allotjament 59.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class65] of  Allotjament
+
+	(ciutat_allotjament "Roma")
+	(dist_centre 5.3)
+	(nom_allotjament "Camping Favola")
+	(permet_animals TRUE)
+	(preu_allotjament 27.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Class66] of  Allotjament
+
+	(ciutat_allotjament "Venecia")
+	(dist_centre 0.4)
+	(nom_allotjament "Hotel Ai Reali di Venezia")
+	(permet_animals TRUE)
+	(preu_allotjament 219.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class67] of  Allotjament
+
+	(ciutat_allotjament "Venecia")
+	(dist_centre 1.4)
+	(nom_allotjament "Hotel Palazzo Selvagedo")
+	(permet_animals TRUE)
+	(preu_allotjament 119.0)
+	(qualitat_allotjament alta)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class68] of  Allotjament
+
+	(ciutat_allotjament "Venecia")
+	(dist_centre 6.0)
+	(nom_allotjament "Apartament Castello")
+	(permet_animals TRUE)
+	(preu_allotjament 89.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class69] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 1.7)
+	(nom_allotjament "Hotel Harmonie Vienna")
+	(permet_animals FALSE)
+	(preu_allotjament 159.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class7] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 41.0151)
+	(longitud 28.9795)
+	(nom_ciutat "Estambul")
+	(te_carretera FALSE)
+	(te_port TRUE))
+
+([provaprot_Class70] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 2.1)
+	(nom_allotjament "Hotel Wien Prater")
+	(permet_animals FALSE)
+	(preu_allotjament 104.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Class71] of  Allotjament
+
+	(ciutat_allotjament "Viena")
+	(dist_centre 4.7)
+	(nom_allotjament "Apartament Doanu")
+	(permet_animals TRUE)
+	(preu_allotjament 65.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Class8] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima mediterrani)
+	(latitud 41.8905)
+	(longitud 12.4942)
+	(nom_ciutat "Roma")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Class9] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa TRUE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima continental)
+	(latitud 48.8667)
+	(longitud 2.3333)
+	(nom_ciutat "Paris")
+	(te_carretera TRUE)
+	(te_port FALSE))
+
+([provaprot_Instance_0] of  Transport
+
+	(max_pers 7)
+	(nom_transport "Lloguer")
+	(peatge TRUE)
+	(preu_per_km 0.08)
+	(qualitat_transport bo)
+	(tipus_transport cotxe))
+
+([provaprot_Instance_1] of  Transport
+
+	(max_pers 5)
+	(nom_transport "Particular")
+	(peatge TRUE)
+	(preu_per_km 0.06)
+	(qualitat_transport mitja)
+	(tipus_transport cotxe))
+
+([provaprot_Instance_10] of  Allotjament
+
+	(ciutat_allotjament "Ilulissat")
+	(dist_centre 8.4)
+	(nom_allotjament "Bed & Breakfast Paa & Jannik")
+	(permet_animals FALSE)
+	(preu_allotjament 37.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_10000] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima sec)
+	(latitud 36.77251)
+	(longitud -2.427782)
+	(nom_ciutat "Aguadulce")
+	(te_carretera TRUE)
+	(te_port TRUE))
+
+([provaprot_Instance_10001] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 0.4)
+	(nom_allotjament "Poromagno")
+	(permet_animals TRUE)
+	(preu_allotjament 86.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_10002] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 8.5)
+	(nom_allotjament "Apartahotel Aguadulce")
+	(permet_animals FALSE)
+	(preu_allotjament 30.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_10003] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 2.1)
+	(nom_allotjament "Playa Paraiso")
+	(permet_animals FALSE)
+	(preu_allotjament 130.5)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_10004] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 5.2)
+	(nom_allotjament "Mirablau")
+	(permet_animals TRUE)
+	(preu_allotjament 37.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_10005] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 6.1)
+	(nom_allotjament "Camping playa Aguadulce")
+	(permet_animals TRUE)
+	(preu_allotjament 20.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Instance_10006] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 0.7)
+	(nom_allotjament "Juan de Austia")
+	(permet_animals FALSE)
+	(preu_allotjament 60.5)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_10007] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 3.2)
+	(nom_allotjament "Torre Bahia")
+	(permet_animals TRUE)
+	(preu_allotjament 90.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_10008] of  Allotjament
+
+	(ciutat_allotjament "Aguadulce")
+	(dist_centre 1.9)
+	(nom_allotjament "Rayo de sol")
+	(permet_animals FALSE)
+	(preu_allotjament 40.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Instance_10009] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Aquatours Almeria")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int cultural activitat relax romantic))
+
+([provaprot_Instance_10010] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Playa de Aguadulce")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int relax festa))
+
+([provaprot_Instance_10011] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Mercado de Abastos")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural negoci))
+
+([provaprot_Instance_10012] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Aquarius de costa Almeria")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Instance_10013] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Plaza de toros")
+	(preu_lloc_int 35.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Instance_10014] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "La Alcazaba")
+	(preu_lloc_int 17.0)
+	(tipus_lloc_int cultural))
+
+([provaprot_Instance_10015] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Mercadillo")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural negoci))
+
+([provaprot_Instance_10016] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "Mario Park")
+	(preu_lloc_int 38.0)
+	(tipus_lloc_int activitat))
+
+([provaprot_Instance_10017] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "El Bribon de la Habana")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int festa cultural relax))
+
+([provaprot_Instance_10018] of  Llocs_interes
+
+	(ciutat "Aguadulce")
+	(nom_lloc "LA Bohemia")
+	(preu_lloc_int 15.0)
+	(tipus_lloc_int festa))
+
+([provaprot_Instance_11] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "AirZafari")
+	(preu_lloc_int 30.0)
+	(tipus_lloc_int cultural relax))
+
+([provaprot_Instance_12] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "Museum")
+	(preu_lloc_int 10.0)
+	(tipus_lloc_int cultural relax))
+
+([provaprot_Instance_13] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "Eqip Sermia Glacier")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int activitat romantic))
+
+([provaprot_Instance_14] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "Water Taxi")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int relax romantic cultural))
+
+([provaprot_Instance_15] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "Snowshoeing Hike")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int activitat romantic))
+
+([provaprot_Instance_16] of  Llocs_interes
+
+	(ciutat "Ilulissat")
+	(nom_lloc "Auror Boreal")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural romantic relax activitat))
+
+([provaprot_Instance_17] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci TRUE)
+	(bona_per_relax TRUE)
+	(clima sec)
+	(latitud 30.06263)
+	(longitud 31.24967)
+	(nom_ciutat "El Cairo")
+	(te_carretera FALSE)
+	(te_port TRUE))
+
+([provaprot_Instance_18] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 8.9)
+	(nom_allotjament "Grand Hotel")
+	(permet_animals TRUE)
+	(preu_allotjament 20.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_19] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 3.6)
+	(nom_allotjament "Lotus Hotel Cairo")
+	(permet_animals TRUE)
+	(preu_allotjament 7.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_2] of  Transport
+
+	(max_pers 7)
+	(nom_transport "Particular")
+	(preu_per_km 0.055)
+	(qualitat_transport mitja)
+	(tipus_transport cotxe))
+
+([provaprot_Instance_20] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 7.1)
+	(nom_allotjament "Conrad Cairo")
+	(permet_animals FALSE)
+	(preu_allotjament 45.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_21] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 4.5)
+	(nom_allotjament "Fairmont Nile City")
+	(permet_animals TRUE)
+	(preu_allotjament 30.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_22] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 2.3)
+	(nom_allotjament "The Nile Ritz-Carlton")
+	(permet_animals FALSE)
+	(preu_allotjament 25.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_23] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 14.7)
+	(nom_allotjament "Ramses Hilton")
+	(permet_animals TRUE)
+	(preu_allotjament 15.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament camping))
+
+([provaprot_Instance_24] of  Allotjament
+
+	(ciutat_allotjament "El Cairo")
+	(dist_centre 4.2)
+	(nom_allotjament "Happy City")
+	(permet_animals TRUE)
+	(preu_allotjament 27.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_25] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Piràmides de Gizeh")
+	(preu_lloc_int 3.0)
+	(tipus_lloc_int cultural relax negoci))
+
+([provaprot_Instance_26] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Museu d'Antiguitats Egípcies")
+	(preu_lloc_int 1.0)
+	(tipus_lloc_int cultural relax romantic))
+
+([provaprot_Instance_27] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Cairo Tower")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural negoci relax))
+
+([provaprot_Instance_28] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Al-Azhar Park")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat romantic))
+
+([provaprot_Instance_3] of  Transport
+
+	(max_pers 7)
+	(nom_transport "Particular")
+	(peatge TRUE)
+	(preu_per_km 0.065)
+	(qualitat_transport bo)
+	(tipus_transport cotxe))
+
+([provaprot_Instance_30] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Babilònia")
+	(preu_lloc_int 20.0)
+	(tipus_lloc_int cultural relax negoci romantic))
+
+([provaprot_Instance_31] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Pharaonic Village")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int relax romantic))
+
+([provaprot_Instance_32] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Cairo Opera House")
+	(preu_lloc_int 30.0)
+	(tipus_lloc_int cultural negoci relax romantic))
+
+([provaprot_Instance_33] of  Llocs_interes
+
+	(ciutat "El Cairo")
+	(nom_lloc "Muralles del Caire")
+	(preu_lloc_int 0.0)
+	(tipus_lloc_int cultural activitat romantic))
+
+([provaprot_Instance_4] of  Transport
+
+	(max_pers 40)
+	(nom_transport "TashMovility")
+	(peatge FALSE)
+	(preu_per_km 0.08)
+	(qualitat_transport bo)
+	(tipus_transport autocar))
+
+([provaprot_Instance_5] of  Ciutat
+
+	(bona_per_familia TRUE)
+	(bona_per_festa FALSE)
+	(bona_per_negoci FALSE)
+	(bona_per_relax TRUE)
+	(clima polar)
+	(latitud 69.22)
+	(longitud -51.1)
+	(nom_ciutat "Ilulissat")
+	(te_carretera FALSE)
+	(te_port TRUE))
+
+([provaprot_Instance_6] of  Allotjament
+
+	(ciutat_allotjament "Ilulissat")
+	(dist_centre 3.3)
+	(nom_allotjament "Hotel Avannaa")
+	(permet_animals TRUE)
+	(preu_allotjament 60.0)
+	(qualitat_allotjament alta)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_7] of  Allotjament
+
+	(ciutat_allotjament "Ilulissat")
+	(dist_centre 2.1)
+	(nom_allotjament "Hotel Icefiord")
+	(permet_animals FALSE)
+	(preu_allotjament 70.0)
+	(qualitat_allotjament excel%C2%B7lent)
+	(te_parking TRUE)
+	(tipus_allotjament hotel))
+
+([provaprot_Instance_8] of  Allotjament
+
+	(ciutat_allotjament "Ilulissat")
+	(dist_centre 1.2)
+	(nom_allotjament "Ilulissat Guesthouse")
+	(permet_animals TRUE)
+	(preu_allotjament 48.0)
+	(qualitat_allotjament estandar)
+	(te_parking FALSE)
+	(tipus_allotjament apartament))
+
+([provaprot_Instance_9] of  Allotjament
+
+	(ciutat_allotjament "Ilulissat")
+	(dist_centre 13.5)
+	(nom_allotjament "Glacier Lodge Eqi")
+	(permet_animals TRUE)
+	(preu_allotjament 30.0)
+	(qualitat_allotjament estandar)
+	(te_parking TRUE)
+	(tipus_allotjament camping))

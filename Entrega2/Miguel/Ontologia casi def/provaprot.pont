@@ -1,0 +1,301 @@
+; Mon May 21 11:51:21 CEST 2018
+; 
+;+ (version "3.4.1")
+;+ (build "Build 537")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot ciutat_allotjament
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot ciutats_visitades
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+		(create-accessor read-write))
+	(single-slot num_ciutats_visitades
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nom_allotjament
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot max_pers
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tipus_transport
+		(type SYMBOL)
+		(allowed-values avio vaixell cotxe tren autocar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preferent
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot preu_lloc_int
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot te_parking
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot llocs_interes_per_dia
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(single-slot tipus_allotjament
+		(type SYMBOL)
+		(allowed-values hotel apartament camping)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot te_port
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot allotjament_per_ciutat
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(single-slot nom_transport
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot clima
+		(type SYMBOL)
+		(allowed-values tropical continental polar sec oceanic mediterrani)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preu_total
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot camarot
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot peatge
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nom_lloc
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preu_allotjament
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ciutat
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nom_ciutat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot latitud
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot transport_viatge
+		(type INSTANCE)
+;+		(allowed-classes Transport)
+		(create-accessor read-write))
+	(multislot tipus_lloc_int
+		(type SYMBOL)
+		(allowed-values cultural festa relax romantic negoci activitat)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot dies_per_ciutat
+		(type INTEGER)
+		(create-accessor read-write))
+	(single-slot permet_animals
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot longitud
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preu_per_km
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot dsit_centre
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot qualitat_transport
+		(type SYMBOL)
+		(allowed-values bo mitja dolent)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Viatge
+	(is-a USER)
+	(role concrete)
+	(multislot ciutats_visitades
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+		(create-accessor read-write))
+	(single-slot num_ciutats_visitades
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot preu_total
+		(type FLOAT)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dies_per_ciutat
+		(type INTEGER)
+		(create-accessor read-write))
+	(multislot llocs_interes_per_dia
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot allotjament_per_ciutat
+		(type INSTANCE)
+;+		(allowed-classes)
+		(create-accessor read-write))
+	(multislot transport_viatge
+		(type INSTANCE)
+;+		(allowed-classes Transport)
+		(create-accessor read-write)))
+
+(defclass Ciutat
+	(is-a USER)
+	(role concrete)
+	(single-slot clima
+		(type SYMBOL)
+		(allowed-values tropical continental polar sec oceanic mediterrani)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nom_ciutat
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot latitud
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot te_port
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot longitud
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Transport
+	(is-a USER)
+	(role concrete)
+	(single-slot tipus_transport
+		(type SYMBOL)
+		(allowed-values avio vaixell cotxe tren autocar)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preferent
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot preu_per_km
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot camarot
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot nom_transport
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot peatge
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot qualitat_transport
+		(type SYMBOL)
+		(allowed-values bo mitja dolent)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot max_pers
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Llocs_interes
+	(is-a USER)
+	(role concrete)
+	(single-slot ciutat
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot tipus_lloc_int
+		(type SYMBOL)
+		(allowed-values cultural festa relax romantic negoci activitat)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot nom_lloc
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preu_lloc_int
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Allotjament
+	(is-a USER)
+	(role concrete)
+	(single-slot ciutat_allotjament
+		(type INSTANCE)
+;+		(allowed-classes Ciutat)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tipus_allotjament
+		(type SYMBOL)
+		(allowed-values hotel apartament camping)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nom_allotjament
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot permet_animals
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot te_parking
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot dsit_centre
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot preu_allotjament
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
